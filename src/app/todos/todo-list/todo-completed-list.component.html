@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="col-xs-6">
+    <h3>Completed Tasks</h3>
+  </div>
+</div>
+<hr>
+<div class="row">
+  <div class="col-xs-12">
+    <ul class="list-group">
+      <li class="list-group-item" *ngFor="let cTodo of completedTodos">{{cTodo.title}}</li>
+    </ul>
+  </div>
+</div>
+
+
